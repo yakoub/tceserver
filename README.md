@@ -19,3 +19,4 @@ resuming BC
 ```
 screen -r tce_bc
 ```
+alternatively use tce_screens.sh script 

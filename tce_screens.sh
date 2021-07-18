@@ -51,6 +51,7 @@ function in_detached {
   return 1
 }
 
+# main
 if [[ -n $1 ]]; then
   if [[ $1 = "stop" ]]; then
     shutdown_tce
