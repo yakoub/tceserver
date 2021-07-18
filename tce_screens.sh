@@ -26,7 +26,7 @@ function shutdown_tce {
 
 
 function restart_tce {
-  local session=$1 found=0
+  local session=$1
   
   if ! in_detached $session; then
     echo $session not found;
