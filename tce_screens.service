@@ -1,0 +1,15 @@
+[Unit]
+Description=TCE screens service
+After=network.target
+
+[Service]
+Type=forking
+User=etl
+Group=etl
+WorkingDirectory=/home/etl/etlegacy
+
+ExecStart=/home/etl/etlegacy/tce_screens.sh 
+ExecStop=/home/etl/etlegacy/tce_screens.sh stop
+
+[Install]
+WantedBy=default.target
