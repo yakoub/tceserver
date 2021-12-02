@@ -19,4 +19,5 @@ resuming BC
 ```
 screen -r tce_bc
 ```
-alternatively use tce_screens.sh script 
+alternatively use tce_screens.sh script and the systemd service file .  
+installing systemd unit file is simple by copying `tce_screens.service` to `/etc/systemd/system`
